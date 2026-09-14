@@ -25,3 +25,48 @@ console.log(x%y)
 // }
 
 // greet("hooyo mcn");
+
+// arrow function
+
+// let salaan = ()=>{
+//     console.log("hi good night")
+// } 
+
+// salaan()
+
+
+// global variabal
+// let globalVariable = "i m  global variable"
+
+// showGlobal = function (){
+// console.log(globalVariable)
+   
+// }
+
+
+// showGlobal()
+
+
+// local variable
+
+// showvaribale = function (){
+//     let localvaribale = "i m local varaible"
+//     console.log(localvaribale)
+    
+// }
+
+// showvaribale()
+
+
+// array
+
+// let names = ["ismail","mohamed","ali","mire"]
+
+// console.log(names[0])
+// console.log(names[1])
+// console.log(names[2])
+
+// let name= "hanad"
+// console.log(name)
+
+
