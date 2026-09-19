@@ -104,3 +104,57 @@
 // const numbers = [1,2,3,4,5]
 // const multi = numbers.reduce ((total,num)=> total*num)
 // console.log(multi)
+
+// ES6 template iterate wa isbadalki ugu weyna lagusameyey javascript
+
+// const name ="ismail";
+// const city = "hargeisa";
+
+// const message = `hello ${name} welcome to ${city}`
+// console.log(message)
+
+
+// distructure array  
+
+// const colors = ["red","green","blue"]
+
+// const [red, ,blue] = colors
+
+// console.log(blue)
+
+// distructure object
+
+// const cars = {make: "toyota", model:"corolla", year: 2020}
+
+// const {make,model} = cars
+
+// console.log(make)
+// console.log(model)
+
+
+// defult parameters
+
+// function great (name ="guest"){
+//     console.log(`hello ${name}`)
+
+// }
+// great("ismail")
+
+// spread operator
+
+
+// const numbers =[1,2,3,4]
+
+// const allNumber = [...numbers,5,6,7,8]
+// console.log(allNumber)
+
+
+
+
+// rest operator
+
+// function sum (...numbers){
+// return numbers.reduce((total,sum)=> total+sum,0)
+// }
+
+// console.log(sum(20,30,50,100))
