@@ -1,10 +1,10 @@
 // spread operator
 
-// const number =[1,2,3]
+const number =[1,2,3]
 
-// const allNumber = [...number,4,5,6]
+const allNumber = [...number,4,5,6]
 
-// console.log(allNumber)
+console.log(allNumber)
 
 // rest operator 
 
