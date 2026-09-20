@@ -158,3 +158,58 @@
 // }
 
 // console.log(sum(20,30,50,100))
+
+// synchronous or bloking
+
+// function fetchUserDataSyncro (){
+//     alert("fetch user data");
+//     return{id:1, name:"ismail"}
+// }
+// console.log("bilaw inad so akhrido user datada")
+
+// const user = fetchUserDataSyncro();
+// console.log("user data", user);
+
+
+// console.log("massege kan waxa uu fulaya ilaa user datadu dhamado");
+
+
+// Asynchronous or non-bloking
+
+// function getUserData(callback){
+//     setTimeout(()=>{
+//    const User = {id: 1, Name:"ahmed"}
+//    callback(User)
+// },2000)
+
+// }
+
+
+// console.log("starting fetch user data")
+// getUserData(function(User){
+//     console.log(User)
+
+// });
+// console.log("massege ku tusaya si deg deg ah")
+
+
+// promise
+
+function fetchUserData (){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+        const success = true;
+        if(success){
+        resolve({id:1, name:"ismail"});
+        }else{
+            reject("failed to fetch data")
+        }
+
+
+        },3000)
+
+//     })
+// }
+// fetchUserData()
+// .then((data)=>console.log("user data",data)) 
+// .catch(err=>console.err("user data",err))
