@@ -91,7 +91,7 @@
 
 // const evenNumbers = numbers.filter((Number)=> Number % 2 ===0)
 // console.log(evenNumbers)
- 
+
 // and other exmaple
 
 // const scores = [40,60,70,80,99,100]
@@ -195,21 +195,98 @@
 
 // promise
 
-function fetchUserData (){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-        const success = true;
-        if(success){
-        resolve({id:1, name:"ismail"});
-        }else{
-            reject("failed to fetch data")
-        }
+// function fetchUserData (){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//         const success = true;
+//         if(success){
+//         resolve({id:1, name:"ismail"});
+//         }else{
+//             reject("failed to fetch data")
+//         }
 
 
-        },3000)
+//         },3000)
 
 //     })
 // }
 // fetchUserData()
 // .then((data)=>console.log("user data",data)) 
 // .catch(err=>console.err("user data",err))
+
+// // async and wait
+
+// async function displayUserdata (){
+//     try{
+//     //  secusss status
+//     const user = await fetchUserData();
+//     console.log(user)
+
+
+//     }catch(err){
+//         // err statsu
+//         console.log(err)
+
+//     }
+// }
+
+// displayUserdata();
+
+
+// JSON
+
+// const user = {
+//     name:"ismail",
+//     id: 1,
+//     city: "hargeisa"
+
+// }
+
+// console.log(user)
+
+// // JSON TO OBJECT
+// const objectToJson = JSON.stringify(user)
+
+// console.log(objectToJson)
+
+// // object to Json
+// const JsonToObject = JSON.parse(objectToJson)
+
+// console.log(JsonToObject)
+
+// waa json sida datada lagaso akhriyo serverka
+
+// async function  fetchUserData(){
+//     console.log("start fetch data");
+//     // const respone = await fetch('./data.Json');
+//     const respone = await fetch('https://jsonplaceholder.typicode.com/posts');
+//     const data = await respone.Json();
+//     console.log("respone:",data);
+
+// }
+
+
+// callback function
+
+// function operate(a, b, callback) {
+//     return callback(a, b)
+// }
+
+// function add(a, b) {
+//     return a + b;
+
+// }
+
+// function substract(a, b) {
+//     return a - b;
+// }
+
+// function multiply (a,b){
+//     return a*b;
+
+// }
+
+// console.log ("addition",operate(10,30,add))
+
+// console.log("substract",operate(20,5,substract))
+// console.log("multipaly",operate(5,6,multiply))
