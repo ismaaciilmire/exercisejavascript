@@ -24,7 +24,6 @@ function devide (a,b){
 }
 
 console.log("addition",operate(10,20,add))
-
 console.log("substract",operate(5,5,substract))
 console.log("multipaly",operate(10,5,multiply))
 console.log("devide",operate(100,2,devide))

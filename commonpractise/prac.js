@@ -290,3 +290,80 @@
 
 // console.log("substract",operate(20,5,substract))
 // console.log("multipaly",operate(5,6,multiply))
+
+// http request or fetch data Api
+
+// async function fetchData() {
+
+//     try {
+
+//         console.log("start data fetched")
+//         const respone = await fetch('https://jsonplaceholder.typicode.com/users')
+//         console.log(respone)
+
+//     } catch (err) {
+
+//     }
+
+
+// }
+// fetchData();
+
+
+// const header = document.querySelector('#header');
+// console.log(header)
+
+// const list = document.querySelector("#list")
+// console.log(list)
+
+// function addItem(){
+//   const newitem = document.createElement('li');
+//   newitem.textContent =('item3');
+//   list.appendChild(newitem)
+// } 
+
+// function removeItem(){
+
+// }
+
+
+// change attrabute
+
+// function changeImage() {
+//     const image = document.querySelector("#image")
+//     const URL = prompt("change your url profile")
+//     image.setAttribute('src', URL)
+//     const width= prompt("please enter width")
+//     image.setAttribute('width')
+
+// }
+// styling
+
+// function changestyle(){
+//     const header = document.querySelector("#header")
+//     const text = document.querySelector(".text")
+//     header.style.color ="skyblue";
+//     text.style.border="1px solid black"
+//     text.style.padding ="20px"
+// }
+
+// background darkmode and lightmode
+
+// function setLightMode(){
+//     document.body.style.backgroundColor="";
+//     document.body.style.color="black"
+
+    
+// }
+
+// function setDarktMode(){
+//     document.body.style.backgroundColor="black";
+//     document.body.style.color="white";
+// }
+
+
+
+
+
+
+
